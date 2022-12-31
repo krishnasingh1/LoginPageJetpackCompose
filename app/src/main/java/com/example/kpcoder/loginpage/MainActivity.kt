@@ -22,7 +22,9 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-
+                    // First of all we create a saprate file for the login page
+                    // now test our LoginPage()
+                    LoginPage()
                 }
             }
         }
